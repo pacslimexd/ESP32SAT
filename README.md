@@ -28,7 +28,7 @@ The satellite module integrates various components to simulate real-world satell
 
 ---
 
-## II. Technical Analysis & Results
+## II. Analysis & Some Results
 
 ### A. Channel Characterization (RSSI & CSI)
 
