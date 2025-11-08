@@ -48,3 +48,15 @@ Experimental analysis was conducted in a 6m x 6m room to characterize the wirele
 
 * **Data Throughput:** Successfully transmitted a reconstructed image in approximately **35 seconds**, divided into **390 data chunks**.
 * **Power Consumption:** The ESP32 averaged approximately **820 mW** during operation.
+
+## III. Files
+
+The project files are organized into dedicated directories for code, hardware design, and signal processing tools:
+
+| Category | Directory Path | Description |
+| :--- | :--- | :--- |
+| **Ground Code** | `ESP32SAT/blob/main/GroundConnect/GroundConnect.ino` | Arduino sketch for the Ground Base (Access Point). |
+| **Satellite Code** | `ESP32SAT/blob/main/Satellitev4/Satellitev4.ino` | Arduino sketch for the Satellite (Client). |
+| **Image Processing** | `ESP32SAT/tree/main/IMG` | MATLAB scripts for the K-means clustering algorithm (IMG). |
+| **User Interface** | `ESP32SAT/blob/main/GUI/InterfazGrafica.mlapp` | The main file for the MATLAB Graphical User Interface (GUI). |
+| **Documentation** | `ESP32SAT/blob/main/TE2011B%20FReport.pdf` | If you like to read, and want to read more :P |
